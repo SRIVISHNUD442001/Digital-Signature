@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Homepage </title>
+   
+</head>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='possible_style.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+   
+<div class="sidenav">
+    <a href="/"> Homepage </a>
+    <button class="dropdown-btn"> Digital Signature
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="/digital_signature">Digital Signature</a>
+        <a href="/digital_signature#what_is">What is it</a>
+        <a href="/digital_signature#history">History</a>
+        <a href="/digital_signature#uses">Uses</a>
+        <a href="/digital_signature#how">How</a>
+        <a href="/digital_signature#time_difference">RSA module size</a>
+        <a href="/digital_signature#example">Example</a>
+    </div>
+    <a href="/example">Demo</a>
+</div>
+   
+  <div
+  class="bg-image p-6 text-center shadow-1-strong rounded mb-5 text-white"
+  style="background-image: url('/static/images/Anonymous-Black-Background-Desktop-HD-Wallpaper-34053.jpg');background-size:cover;opacity:0.9;"
+>
+  <h1 class="mb-3 h2"></h1>
+<br>
+  <p><b>CRYPTOGRAPHY AND NETWORK SECURITY </b></p>
+  <h3>[COURSE CODE : 18IS63]</h3>
+      <p class="tt"><b> DIGITAL SIGNATURE</b></p>
+      <h2>Sri Vishnu D                 (1RV19IS054)</h2>
+      <h2>Suraj Rajshekhar Mukkannavar (1RV19IS058)</h2>
+  </p>
+  <br>
+</div>
+       
+</div>
+<script src="{{ url_for('static', filename='js/navigation_bar_loop.js') }}"></script>
+</body>
+</html>
